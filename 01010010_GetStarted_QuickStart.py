@@ -4,7 +4,7 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
 
-# Create the OpenAI chatbot 创建聊天机器人
+# Create the OpenAI chatbot     创建聊天机器人
 llm = ChatOpenAI()
 
 # Start the chatbot and get the response   启动聊天机器人并获得回复
