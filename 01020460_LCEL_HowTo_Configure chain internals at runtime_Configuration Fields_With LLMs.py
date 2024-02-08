@@ -1,5 +1,6 @@
 # Load the API key from the .env file   从.env文件中加载API密钥
 from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv())
 
 from langchain_core.runnables import ConfigurableField
 from langchain_openai import ChatOpenAI
