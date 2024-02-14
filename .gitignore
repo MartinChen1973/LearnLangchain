@@ -4,3 +4,5 @@ _internal/xmz.py
 _internal/xmz.txt
 utilities/serve.py
 _todo/01020460_LCEL_HowTo_Bind runtime args_Configure chain internals at runtime.py
+_internal/test
+_todo/01020533_LCEL_HowTo_Add message history_More examples.py
