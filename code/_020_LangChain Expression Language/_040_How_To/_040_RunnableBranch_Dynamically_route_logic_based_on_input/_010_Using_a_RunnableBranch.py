@@ -63,7 +63,6 @@ Answer:"""
 
 # Define a branch chain
 from langchain_core.runnables import RunnableBranch
-
 branch_chain = RunnableBranch(
     (lambda x: "anthropic" in x["topic"].lower(), anthropic_chain),
     (lambda x: "langchain" in x["topic"].lower(), langchain_chain),
